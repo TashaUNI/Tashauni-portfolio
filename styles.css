@@ -1,0 +1,66 @@
+css
+
+body {
+  background-color: #2d3748;
+  color: azure;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+#hero {
+  background-image: url(./wilker-lauriano-nZ6tN5BoXm8-unsplash.jpg); 
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+  min-height: 600px;
+  
+  
+  
+} 
+#hero h1 {
+  font-size: 65px;
+  padding-top: 30vh; 
+  text-shadow: rgba(8, 8, 8, 0.5) 0px 3px 3px;
+  /*padding-left: 120px;*/
+}
+
+#hero h3 {
+  padding-top: 20px;
+  text-shadow: 2px 2px 3px rgb(0 0 0 / 100%);
+  /*padding-left: 180px;*/
+}
+
+@media (max-width: 720px) {
+  #hero h1 {
+    font-size: 40px;
+  }  
+}
+
+#hero btn btn-dark {
+  padding-top: 115px;
+  padding-left: 20px;
+  color:rgb(109, 106, 136)
+}
+
+
+
+#portfolio {
+  padding-top: 50px;
+  
+}
+
+.card {
+  display:flex;
+}
+
+
+.card-text {
+  font-size: 12px; 
+}
+
+.featured-artist {
+  text-align: middle; 
+}
+
