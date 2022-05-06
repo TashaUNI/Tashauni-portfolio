@@ -10,14 +10,11 @@ body {
 }
 
 #hero {
-  background-image: url(./wilker-lauriano-nZ6tN5BoXm8-unsplash.jpg); 
+  background-image: url("./images/wilker-lauriano-nZ6tN5BoXm8-unsplash.jpg"); 
   background-size: cover;
   background-position: center; 
   height: 100vh;
   min-height: 600px;
-  
-  
-  
 } 
 #hero h1 {
   font-size: 65px;
